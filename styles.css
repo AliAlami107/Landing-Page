@@ -143,8 +143,33 @@ button {
 
 /* Styling for hero-3  */
 .hero-3 {
-    height: 250px;
-    border: 5px solid red;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+
+.quote-block {
+    width: min(820px, 90%);
+    margin: 0 auto;
+}
+  
+.quote-block blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+  
+.quote-block figcaption {
+    margin-top: 12px;
+    text-align: right;
+    font-weight: 600;
+    color: #1F2937;
+    font-size: 18px;
+    font-style: italic;
 }
 
 /* Styling for hero-4  */
